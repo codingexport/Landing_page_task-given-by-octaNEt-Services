@@ -77,7 +77,7 @@ a{
 }
 
 a::after{
-    content: "";
+    content: "data-before";
     position: absolute;
     bottom: 0;
     left: 0;
@@ -183,6 +183,12 @@ header .content-fit nav ul{
     inset: 0;
     z-index: 100;
     pointer-events: none;
+}
+element.style {
+    width: 50vw;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
 }
 @media screen and (max-width: 1023px){
     #banner .title {
